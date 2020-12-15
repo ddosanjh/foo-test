@@ -23,3 +23,4 @@ script.__scopeId = "data-v-28ea8494";
 script.__file = "src/FooVueComponent.vue";
 
 export default script;
+//# sourceMappingURL=foo-vue-component.esm.js.map

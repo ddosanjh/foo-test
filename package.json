@@ -4,17 +4,20 @@
   "description": "vue SFC whose template has multiple root nodes",
   "author": "",
   "license": "ISC",
-  "main": "dist/foo-vue-component.esm.js",
+  "module": "dist/foo-vue-component.esm.js",
   "scripts": {
-    "roll": "rollup --config rollup.config.js"
+    "roll": "rollup --config rollup.config.2.js"
   },
-  "dependencies": {},
+  "peerDependencies": {
+    "vue": "^3.0.4"
+  },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.4",
-    "vue": "^3.0.4",
     "@rollup/plugin-commonjs": "^17.0.0",
+    "@vue/compiler-sfc": "^3.0.4",
     "rollup": "^2.35.1",
     "rollup-plugin-css-only": "^3.0.0",
-    "rollup-plugin-vue": "^6.0.0-beta.10"
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0-beta.10",
+    "vue": "^3.0.4"
   }
 }
