@@ -1,0 +1,20 @@
+{
+  "name": "foo-vue-component",
+  "version": "1.0.0",
+  "description": "vue SFC whose template as multuple root nodes",
+  "author": "",
+  "license": "ISC",
+  "main": "dist/foo-vue-component.esm.js",
+  "scripts": {
+    "roll": "rollup --config rollup.config.js"
+  },
+  "dependencies": {
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "rollup": "^2.35.1",
+    "rollup-plugin-css-only": "^3.0.0",
+    "rollup-plugin-vue": "^6.0.0-beta.10"
+  }
+}
