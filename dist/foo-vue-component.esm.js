@@ -1,9 +1,7 @@
-/* eslint-disable */
-
 import { pushScopeId, popScopeId, openBlock, createBlock, Fragment, withScopeId, createVNode } from 'vue';
 
 var script = {
-  name: "FooVueComponent"
+  name: "FooTest"
 };
 
 const _withId = /*#__PURE__*/withScopeId("data-v-28ea8494");

@@ -5,7 +5,7 @@
 
 <script>
 export default {
-  name: "FooVueComponent"
+  name: "FooTest"
 }
 </script>
 

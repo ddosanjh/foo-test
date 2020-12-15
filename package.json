@@ -1,7 +1,7 @@
 {
-  "name": "foo-vue-component",
+  "name": "foo-test",
   "version": "1.0.0",
-  "description": "vue SFC whose template as multuple root nodes",
+  "description": "vue SFC whose template has multiple root nodes",
   "author": "",
   "license": "ISC",
   "main": "dist/foo-vue-component.esm.js",
@@ -9,6 +9,7 @@
     "roll": "rollup --config rollup.config.js"
   },
   "dependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
     "vue": "^3.0.4"
   },
   "devDependencies": {
