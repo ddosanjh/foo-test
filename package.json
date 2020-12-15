@@ -8,11 +8,10 @@
   "scripts": {
     "roll": "rollup --config rollup.config.js"
   },
-  "dependencies": {
-    "@vue/compiler-sfc": "^3.0.4",
-    "vue": "^3.0.4"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.4",
+    "vue": "^3.0.4",
     "@rollup/plugin-commonjs": "^17.0.0",
     "rollup": "^2.35.1",
     "rollup-plugin-css-only": "^3.0.0",
